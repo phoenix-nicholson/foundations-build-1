@@ -9,7 +9,7 @@ describe('Build #1 Tests', ()=>{
         });
     
         it('contains a <p> with the id #random-num', ()=>{
-            cy.get('p#random-num').should('be.empty');
+            cy.get('p#random-num').should('be.visible');
         });
     });
     

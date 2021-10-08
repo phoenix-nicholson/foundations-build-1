@@ -1,9 +1,11 @@
-// import functions and grab DOM elements
 
-// initialize global state
+let num = (Math.floor(Math.random() * 50)) + 1;
+const genButton = document.getElementById('generate');
+const numSpan = document.getElementById('num');
 
-// set event listeners 
-// get user input
-// use user input to update state 
-// update DOM to reflect the new state
+genButton.addEventListener('click', ()=> {
+    numSpan.textContent = num;
+    num = (Math.floor(Math.random() * 50)) + 1;
+});
+
 
