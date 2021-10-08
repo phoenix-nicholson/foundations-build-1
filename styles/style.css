@@ -1,1 +1,10 @@
+body {
+    background-image: url('../assets/luffy.jpg') ;
+    text-align: center;
+    color: lime;
+}
+button {
+    color: lime;
+    border-radius: 15px;
+}
 
